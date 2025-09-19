@@ -1,10 +1,8 @@
 This web page runs with Flask.
 
-It is used to input information about fictional library books into a form, 
-which is then processed by the Python application to build a SQL query.
+It is used to input information about fictional library books into a form, which is then processed by the Python application to build a SQL query.
 
-The SQL query is then used with the library_db database with MySQL, and its 
-output is put into a table on the html page.
+The SQL query is then used with the library_db database with MySQL, and its output is put into a table on the html page.
 
 This is basically just a proof of concept.
 
