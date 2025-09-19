@@ -55,7 +55,7 @@ def mysql_run_query(inputs):
 		if inputs['min_publication'] != '0':
 			filters.append(f"Year_Published >= {inputs['min_publication']}")
 
-		#Maximum pages
+		#Maximum year published
 		if inputs['max_publication'] != '3000':
 			filters.append(f"Year_Published <= {inputs['max_publication']}")
 
@@ -87,7 +87,6 @@ def mysql_run_query(inputs):
 		if my_cursor.description:
 			column_names = [i[0] for i in my_cursor.description]
 		temp_output = [column_names[:]] # For clarity
-		number_of_columns = len(column_names) - 1
 
 		# Get the results of the query
 		my_result = my_cursor.fetchall()
