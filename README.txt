@@ -55,7 +55,7 @@ Records: 35  Duplicates: 0  Warnings: 0
 
 //Setting up limited user 'Librarian':
 
-mysql> CREATE USER 'Librarian'@'localhost' identified by 'berz1951GLUP!6zt';
+mysql> CREATE USER 'Librarian'@'localhost' identified by '********';
 Query OK, 0 rows affected (0.16 sec)
 
 mysql> source aaaWebDevelopment/library_db/library_db.sql
