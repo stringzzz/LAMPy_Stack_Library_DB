@@ -44,7 +44,7 @@ $ pip3 install mysql-connector-python
 
 //Set up library database:
 
-mysql> source aaaWebDevelopment/library_db/library_db.sql
+mysql> source library_db/library_db.sql
 Query OK, 1 row affected (0.19 sec)
 
 Database changed
@@ -58,7 +58,7 @@ Records: 35  Duplicates: 0  Warnings: 0
 mysql> CREATE USER 'Librarian'@'localhost' identified by '********';
 Query OK, 0 rows affected (0.16 sec)
 
-mysql> source aaaWebDevelopment/library_db/library_db.sql
+mysql> source library_db/library_db.sql
 Query OK, 1 row affected (0.13 sec)
 
 Database changed
