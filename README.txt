@@ -41,6 +41,7 @@ $ python3 -m venv myenv
 $ source myenv/bin/activate
 $ pip3 install flask
 $ pip3 install mysql-connector-python
+$ deactivate
 
 //Set up library database:
 
