@@ -91,6 +91,8 @@ mysql> show grants for 'Librarian'@'localhost';
 
 //Run commands to copy files to correct directory and change permissions:
 
+$ sudo cp library_db.wsgi /var/www/html/library_db.wsgi; 
+$ sudo chmod 755 /var/www/html/library_db.wsgi;
 $ sudo cp library_db.py /var/www/html/library_db.py; 
 $ sudo chmod 755 /var/www/html/library_db.py; 
 $ sudo cp library_db.html /var/www/html/templates/library_db.html; 
